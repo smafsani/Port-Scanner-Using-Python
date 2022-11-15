@@ -5,7 +5,7 @@ from queue import Queue
 
 scannerBanner = pyfiglet.figlet_format("PORT SCANNER")
 print(scannerBanner)
-# Use your router ip address or localhost(127.0.0.1) or you can use other networks ip when you have it's permission.
+# Use your router ip address or localhost(127.0.0.1) or you can use other networks ip when you have the network owner's permission.
 HOST = ""
 QUEUE = Queue()
 ACTIVE_PORTS = []
